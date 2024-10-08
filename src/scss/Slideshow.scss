@@ -1,0 +1,24 @@
+.Slideshow-row { // New class for the row of slides
+    display: flex; // Use flexbox to align children in a row
+    justify-content: space-around; // Space out the images evenly
+    align-items: center; // Center images vertically
+    padding: 20px; // Add padding to the row
+}
+
+.Slideshow-container, 
+.Slideshow2-container, 
+.Slideshow4-container {
+    flex: 1; // Allow containers to grow and fill available space
+    margin: 0 10px; // Optional: add margin between the images
+}
+
+.photos {
+    width: 100%; // Make the image responsive within its container
+}
+
+.photo {
+    width: 100%; // Make the image fill its container
+    height: auto; // Maintain aspect ratio
+}
+
+    

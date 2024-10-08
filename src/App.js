@@ -3,6 +3,7 @@ import {Header} from './components/Header';
 import {AboutMe} from './components/AboutMe';
 import {Runinfo} from './components/Runinfo';
 import {Yogainfo} from './components/Yogainfo';
+import {Slideshow} from './components/Slideshow';
 import {Footer} from './components/Footer';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <AboutMe></AboutMe>
         <Runinfo></Runinfo>
         <Yogainfo></Yogainfo>
+        <Slideshow></Slideshow>
         <Footer>
         </Footer>
       </BaseStyles>

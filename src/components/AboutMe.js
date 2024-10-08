@@ -13,8 +13,6 @@ export function AboutMe() {
       src={ABOUT}
       alt="ABOUT logo"
       />  
-
-
       <img 
         className="cover-photo" 
         src={Aboutcover} 
