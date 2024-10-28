@@ -18,6 +18,9 @@ export function AboutMe() {
         src={Aboutcover} 
         alt="About cover"
       />
+    <div class="overlay">
+      
+    </div>
     </div>
   );
 

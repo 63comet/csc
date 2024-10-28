@@ -1,4 +1,5 @@
 .Run-container {
+   font-family: 'Montserrat', sans-serif;
    display: flex;
    justify-content: right;
    background: linear-gradient(to right, black, gray);
@@ -13,18 +14,18 @@
          font-size: 2.0rem;
          margin-bottom: 15px;
          text-align: center;
-         font-family: 'Roboto Mono', sans-serif;
+         font-family: 'Montserrat', sans-serif;
       }
 
       h4 {
          font-size: 1.2rem;
          margin-bottom: 15px;
          text-align: center;
-         font-family: 'Roboto Mono', sans-serif; 
+         font-family: 'Montserrat', sans-serif; 
       }
 
       p {
-         font-family: 'Roboto Mono', sans-serif;
+         font-family: 'Montserrat', sans-serif;
          font-size: 1.0rem;
          margin-left: auto;
          margin-right: auto;
@@ -33,7 +34,7 @@
       }
 
       .Location-container {
-         font-family: 'Roboto Mono', sans-serif;
+         font-family: 'Montserrat', sans-serif;
          font-weight: bold;
          font-size: 1.2rem;
          margin-top: 100px;
@@ -43,7 +44,7 @@
          a {
             color: white;
             text-decoration: underline; 
-            transition: color 0.3s ease;
+            transition: color 0.50s ease;
          }
 
          a:hover {
@@ -57,7 +58,7 @@
       width: 50vw;
       object-fit: cover;
       display: block;
-      transition: opacity 3s ease-in-out; 
+      transition: opacity 30s ease-in-out; 
    }
 
    .fade-out {
