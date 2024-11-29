@@ -1,5 +1,4 @@
 
-
 .Yoga-container {
     display: flex;
     justify-content: left;
@@ -47,11 +46,11 @@
         }
     }
 
-    .Yogaimage {
-        height: auto;
-        width: 50vw;
-        object-fit: cover;
-        display: block; 
-    }
 
+}
+.yogaphoto {
+    height: auto;
+    width: 50vw;
+    object-fit: cover;
+    display: block;
 }

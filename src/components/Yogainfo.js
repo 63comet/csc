@@ -1,4 +1,6 @@
-import Yogaimage from "../assets/images/Yogaimage.png"
+import yogaphoto from "../assets/images/yogaphoto.jpg";
+import yogaphoto2 from '../assets/images/yogaphoto2.jpg';
+import yogaphoto3 from '../assets/images/yogaphoto3.jpg'
 import '../scss/Yogainfo.scss'
 
 
@@ -8,9 +10,9 @@ export function Yogainfo() {
             <div className='infobox'>
             </div>
             <img 
-            className="Yogaimage"
-            src={Yogaimage}
-            alt="Yoga image">
+            className="yogaphoto"
+            src={yogaphoto3}
+            alt="yoga photo">
             </img>
             <div className="Yoga-text">
             <h1>YOGA</h1>
