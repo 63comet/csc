@@ -6,6 +6,7 @@ import slideshow6 from "../assets/images/slideshow6.png";
 import slideshow7 from "../assets/images/slideshow7.png";
 import slideshow8 from "../assets/images/slideshow8.png";
 
+
 import '../scss/Slideshow.scss';
 
 export function Slideshow() {
@@ -58,6 +59,15 @@ export function Slideshow() {
                         alt="Slideshow 4"
                     />
                 </div>
+                <div className='Slideshow2-container'>
+                <div className='photos'>
+                    <img
+                        className='photo'
+                        src={slideshow4}
+                        alt="Slideshow 4"
+                        />
+
+            </div>
             <div className= 'slideshow5-container'>
                 <div className= 'photo'>
                     <img
@@ -78,7 +88,7 @@ export function Slideshow() {
                 </div>
             
             </div>
-            </div>
+            </div>  
             </div>
         </div>
     );
