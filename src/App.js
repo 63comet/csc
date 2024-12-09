@@ -5,10 +5,7 @@ import {Runinfo} from './components/Runinfo';
 import {Yogainfo} from './components/Yogainfo';
 import {Slideshow} from './components/Slideshow';
 import {Footer} from './components/Footer';
-<<<<<<< HEAD
-=======
 import { AutoScrollCarousel } from './components/AutoScrollCarousel';
->>>>>>> 2f55f3e (Describe your changes here)
 
 function App() {
   return (
@@ -19,10 +16,7 @@ function App() {
         <Runinfo></Runinfo>
         <Yogainfo></Yogainfo>
         <Slideshow></Slideshow>
-<<<<<<< HEAD
-=======
         <AutoScrollCarousel/>
->>>>>>> 2f55f3e (Describe your changes here)
         <Footer>
         </Footer>
       </BaseStyles>

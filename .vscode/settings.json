@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-=======
+
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#1f6fd0",
         "activityBar.background": "#1f6fd0",
@@ -29,5 +28,4 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#1857a4"
->>>>>>> 2f55f3e (Describe your changes here)
 }
