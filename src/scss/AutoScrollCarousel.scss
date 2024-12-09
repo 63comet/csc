@@ -1,0 +1,47 @@
+.carousel-section {
+    text-align: center; 
+    background: linear-gradient(to right, black, gray);
+  
+    .carousel-title {
+      font-size: 24px; 
+      font-weight: bold; 
+      color: #ffffff; 
+      margin-bottom: 15px; 
+      margin-top: 0px;
+      padding-top: 15px;
+    }
+  
+    .carousel-container {
+      overflow: hidden; 
+      position: relative; 
+      width: 100%; 
+      background: linear-gradient(to right, black, gray);
+      padding-bottom: 15px;
+      .carousel {
+        display: flex; 
+        animation: scroll 20s linear infinite; 
+        will-change: transform; 
+        .carousel-item {
+          flex: 0 0 auto; 
+          padding: 10px; 
+  
+          img {
+            max-height: 80px; 
+            max-width: 150px; 
+            object-fit: contain; 
+          }
+        }
+      }
+    }
+  }
+  
+  // Keyframes for infinite scrolling
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 20px));
+    }
+  }
+  

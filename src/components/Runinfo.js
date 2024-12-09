@@ -1,5 +1,9 @@
 import React, { useState } from "react"; 
+<<<<<<< HEAD
 import RunImage from "../assets/images/Runimage.png";
+=======
+import RunImage from "../assets/images/Runimage.JPG";
+>>>>>>> 2f55f3e (Describe your changes here)
 import DepartedImage from "../assets/images/departed.png"; 
 import '../scss/Runinfo.scss';
 

@@ -4,7 +4,12 @@
     width: 100%;
     bottom: 0;
     flex: 1;
+<<<<<<< HEAD
     background: linear-gradient(to right, black, gray);
+=======
+    background: black;//linear-gradient(to right, black, gray);
+    text-align: center;
+>>>>>>> 2f55f3e (Describe your changes here)
 
     
     .code-of-conduct{
@@ -12,8 +17,12 @@
         position: relative;
         z-index: 10;
         margin-bottom: 10px;
+<<<<<<< HEAD
         right:-42%;
         transform: translateX(42%);
+=======
+        
+>>>>>>> 2f55f3e (Describe your changes here)
     }
     
     

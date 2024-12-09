@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+>>>>>>> 2f55f3e (Describe your changes here)
 .nav-container{
     padding: 1px; 
     width: 100%;
@@ -11,10 +16,18 @@
     height: 100vh;
     margin-top: 0px;
     right: 0;
+<<<<<<< HEAD
 
     .logo{
         position: absolute;
         top: 140px;
+=======
+    overflow: hidden;
+
+    .logo{
+        position: absolute;
+        top: 40px;
+>>>>>>> 2f55f3e (Describe your changes here)
         z-index: 2;
         height: 100px;
         left: 50%;
@@ -28,7 +41,52 @@
         height: 100%;
         object-fit: cover;
         z-index: 1;
+<<<<<<< HEAD
 
 
     }
 }
+=======
+    }
+    .wavy-text-container{
+        display: flex;
+        --gap: 20px;
+        display: flex;
+        gap: var(--gap);
+        width: 200%; /* Ensure enough space for scrolling text */
+        white-space: nowrap; /* Prevent line breaks */
+        .wavy-text {
+            position: absolute;
+            top: 50%; /* Center vertically */
+            left: 0; /* Start at the left of the container */
+            font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+            font-size: 8rem; /* Big text size */
+            font-weight: 900; /* Extra bold for prominence */
+            //white-space: nowrap; /* Prevent wrapping */
+            color: white; /* Text color */
+            text-transform: uppercase; /* Capitalize the text */
+            display: inline-block; /* Ensure proper layout for repeated scrolling */
+            animation: scroll 20s linear infinite; /* Continuous slower scrolling animation */
+        }
+    }
+    
+      /* Horizontal scrolling animation */
+      @keyframes scroll {
+        0% {
+          transform: translateX(0%); /* Start at the initial position */
+        }
+        100% {
+          transform: translateX(40%); /* Scroll to the left completely */
+        }
+      }
+    //   @keyframes wave {
+    //     0% {
+    //         transform: translate3d(0, 0, 0);
+    //         visibility: visible;
+    //       }
+    //       100% {
+    //         transform: translate3d(-100%, 0, 0);
+    //       }
+    //   }
+    }
+>>>>>>> 2f55f3e (Describe your changes here)
