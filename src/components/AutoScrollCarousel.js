@@ -15,17 +15,13 @@ import SaltStickCircle from "../assets/logos/Partners/SaltStickCircle.png";
 import Winning_Events from "../assets/logos/Partners/Winning_Events.png";
 import Lululemon from "../assets/logos/Partners/Lululemon.png";
 import NewBalance from "../assets/logos/Partners/Newbalance.png";
-import LiquidIV from "../assets/logos/Partners/LiquidIV White.png";
+import LiquidIVWhite from "../assets/logos/Partners/LiquidIVWhite.png";
 import GNGRLabsWhite from "../assets/logos/Partners/GNGRLabsWhite.png";
 import LMNTWhite from "../assets/logos/Partners/LMNTWhite.png";
 import NaturesFyndWhite from "../assets/logos/Partners/NaturesFyndWhite.png";
-import SaludWhite from "..assets/logos/Partners/SaludWhite.png";
-import Spoonful from "..assets/logos/Partners/Spoonful.png";
-import StravaWhite from "..assets/logos/Partners/StravaWhite.png";
-import Winning_Events from "..assets/logos/Partners/Winning_Events.png";
-
-
-
+import SaludWhite from "../assets/logos/Partners/SaludWhite.png";
+import Spoonful from "../assets/logos/Partners/Spoonful.png";
+import StravaWhite from "../assets/logos/Partners/StravaWhite.png";
 
 export function AutoScrollCarousel() {
   // Define the logos array
@@ -49,9 +45,9 @@ export function AutoScrollCarousel() {
     StravaWhite,
     LMNTWhite,
     LiquidIVWhite,
-    Knockaround,
     GNGRLabsWhite,
     EonsWhite,
+    NaturesFyndWhite
   ];
 
   return (
@@ -66,7 +62,7 @@ export function AutoScrollCarousel() {
           ))}
           {/* Duplicate items for smooth scrolling */}
           {logos.map((logo, index) => (
-            <div  aria-hidden='true' className="carousel-item" key={`duplicate-${index}`}>
+            <div aria-hidden="true" className="carousel-item" key={`duplicate-${index}`}>
               <img src={logo} alt={`Logo ${index + 1}`} />
             </div>
           ))}
@@ -75,3 +71,4 @@ export function AutoScrollCarousel() {
     </div>
   );
 }
+
