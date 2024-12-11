@@ -1,11 +1,11 @@
 import React from "react";
 import "../scss/AutoScrollCarousel.scss";
 import bay_st from "../assets/logos/Partners/bay_st.png";
+import EonsWhite from "../assets/logos/Partners/EonsWhite.png";
 import CampSnap from "../assets/logos/Partners/CampSnap.png";
 import CraversCircle from "../assets/logos/Partners/CraversCircle.png";
 import GoMacro from "../assets/logos/Partners/GoMacro.png";
 import Grove_Street_bikes from "../assets/logos/Partners/Grove_Street_bikes.png";
-import Jersey_City_Lagers from "../assets/logos/Partners/Jersey_City_Lagers.png";
 import Knockaround from "../assets/logos/Partners/Knockaround.png";
 import MaskGroup from "../assets/logos/Partners/MaskGroup.png";
 import ONRunning from "../assets/logos/Partners/ONRunning.png";
@@ -13,7 +13,18 @@ import RapidRebootBlack from "../assets/logos/Partners/RapidRebootBlack.png";
 import RiseCircle from "../assets/logos/Partners/RiseCircle.png";
 import SaltStickCircle from "../assets/logos/Partners/SaltStickCircle.png";
 import Winning_Events from "../assets/logos/Partners/Winning_Events.png";
-import ZOS from "../assets/logos/Partners/ZOS.png";
+import Lululemon from "../assets/logos/Partners/Lululemon.png";
+import NewBalance from "../assets/logos/Partners/Newbalance.png";
+import LiquidIV from "../assets/logos/Partners/LiquidIV White.png";
+import GNGRLabsWhite from "../assets/logos/Partners/GNGRLabsWhite.png";
+import LMNTWhite from "../assets/logos/Partners/LMNTWhite.png";
+import NaturesFyndWhite from "../assets/logos/Partners/NaturesFyndWhite.png";
+import SaludWhite from "..assets/logos/Partners/SaludWhite.png";
+import Spoonful from "..assets/logos/Partners/Spoonful.png";
+import StravaWhite from "..assets/logos/Partners/StravaWhite.png";
+import Winning_Events from "..assets/logos/Partners/Winning_Events.png";
+
+
 
 
 export function AutoScrollCarousel() {
@@ -24,7 +35,6 @@ export function AutoScrollCarousel() {
     CraversCircle,
     GoMacro,
     Grove_Street_bikes,
-    Jersey_City_Lagers,
     Knockaround,
     MaskGroup,
     ONRunning,
@@ -32,7 +42,16 @@ export function AutoScrollCarousel() {
     RiseCircle,
     SaltStickCircle,
     Winning_Events,
-    ZOS,
+    Lululemon,
+    NewBalance,
+    SaludWhite,
+    Spoonful,
+    StravaWhite,
+    LMNTWhite,
+    LiquidIVWhite,
+    Knockaround,
+    GNGRLabsWhite,
+    EonsWhite,
   ];
 
   return (
