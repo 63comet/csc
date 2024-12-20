@@ -3,14 +3,21 @@
   height: 50vw;
   margin-top: 0px;
   
-  .logo{
-      position: absolute;
-      top: 50px;
-      z-index: 3;
-      height: 50px;
-      left: 50%;
-      transform: translateX(-50%);
+
+
+  .AboutMe-text{
+    color: #fff;
+    width: 50%;
+    text-align: center;
+
+
+    h1{
+      font-size: 4.0rem;
+      margin-bottom: 15px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
   }
+}
   .cover-photo{
       position:absolute;
       left: 0;
@@ -32,4 +39,16 @@
       background-color: rgba(46, 46, 46, 0.5); 
       z-index: 2; 
   }
-}
+    }
+  
+      p {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 2.0rem;
+        line-height: 3.0rem;
+        text-align:justify;
+        margin-left:0%;
+        width: 800px;
+        margin-top:300px;
+      }
+  

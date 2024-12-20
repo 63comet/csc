@@ -1,5 +1,5 @@
 import React, { useState } from "react"; 
-import RunImage from "../assets/images/Runimage.JPG";
+import RunImage from "../assets/images/Runimage.jpg";
 import DepartedImage from "../assets/images/departed.png"; 
 import '../scss/Runinfo.scss';
 
@@ -17,7 +17,6 @@ export function Runinfo() {
                     pace options and biking available. Come connect and enjoy the fun.
                 </p>
                 <div className='Location-container'>
-                    <h4>Departed Soles</h4>
                     <div className='location-wrapper'>
                         <a 
                             href="https://www.google.com/maps?ll=40.72087,-74.040134&z=15&t=m&hl=en-US&gl=US&mapclient=embed&cid=9782111646039970650" 
@@ -39,17 +38,21 @@ export function Runinfo() {
                             }}
                             
                         >
-                            Location
+                            LOCATION
                         </a>
                     </div>
                 </div>
             </div>
+
+            <div className="=Runimage">
             <img
                 className="Runimage"
                 src={imageSrc} 
                 alt="Run image"
                 style={{opacity: imageOpacity}}
-            />
-        </div>
+                />
+            </div>
+    </div>
     );
 }
+

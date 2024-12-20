@@ -6,6 +6,7 @@ import {Yogainfo} from './components/Yogainfo';
 import {Slideshow} from './components/Slideshow';
 import {Footer} from './components/Footer';
 import { AutoScrollCarousel } from './components/AutoScrollCarousel';
+import {Spin} from './components/Spin';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <AboutMe></AboutMe>
         <Runinfo></Runinfo>
         <Yogainfo></Yogainfo>
+        <Spin></Spin>
         <Slideshow></Slideshow>
         <AutoScrollCarousel/>
         <Footer>

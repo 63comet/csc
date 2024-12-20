@@ -4,19 +4,16 @@
     width: 100%;
     bottom: 0;
     flex: 1;
-    background: black;//linear-gradient(to right, black, gray);
+    background: rgb(25, 24, 24);
     text-align: center;
 
-    
     .code-of-conduct{
         color: white;
         position: relative;
         z-index: 10;
         margin-bottom: 10px;
-        
+        text-decoration: none;
     }
-    
-    
 
     .social-media-container{
 
@@ -29,4 +26,13 @@
         padding-left: 50px;
         padding-right: 50px;
     }
-}
+
+        .donation-form-container {
+        position: relative;
+        text-decoration-color: white;
+        z-index: 10;
+        margin-bottom: 10px;
+        text-transform: white;
+
+        }
+    }

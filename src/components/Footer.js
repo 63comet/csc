@@ -25,31 +25,19 @@ return (
         </div>
         <div>
             <a className="code-of-conduct" href="https://drive.google.com/file/d/1S0yarD4VzoqjqAvYp-KqdyAl892358Wb/view?pli=1" target="_blank">
-                Chilltown Street Club Code of conduct
+                <h4>CHILL TOWN STREET CLUB CODE OF CONDUCT</h4>
+            
             </a>   
         </div>
-         
+        <div>   </div>
     </div>
 
-    <div>
+    <div className="donation-form-container">
+        <a ClassName="Donation Link" href="https://www.zeffy.com/embed/donation-form/f0e22e47-7252-427f-8b56-e5321c8cebe1" target= "_blank">
+                <h4>Donation Link</h4>
+            </a>
     </div>
-
 </div>
 
-
-
-
-
-     
-) 
-
-
-
-
-
-
-
-
-
-
-}
+);
+} 

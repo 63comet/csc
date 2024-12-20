@@ -1,5 +1,5 @@
-
 .Yoga-container {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: left;
     background: linear-gradient(to right, gray, black);
@@ -7,45 +7,50 @@
     .Yoga-text{
         color: #fff;
         width: 50%;
-        text-align: left;
+        text-align: center;
         margin-top: 100px;
     
         h1 {
-        font-size: 2.0rem;
+        font-size: 4.0rem;
         margin-bottom: 15px;
         text-align: center;
+        font-family:'Montserrat', sans-serif;
         }
     
         h4 {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         margin-bottom: 15px;
         text-align: center;
-        font-family: 'Roboto Mono', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         }
         
         p {
-        font-family: 'Roboto Mono', sans-serif;
-        font-size: 1.0rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        line-height: 3.0rem;
         margin-left: auto;
         margin-right: auto;
         width: 500px;
-        margin-top: 200px;
+        margin-top: 80px;
         }
     
     .Location-container { 
-        font-family:'Roboto Mono', sans-serif;
+        font-family:'Montserrat', sans-serif;
         font-weight:bold;
         font-size: 1.2rem;
-        margin-top: 200px;
+        margin-top: 80px;
         text-align: center;
         color: white;
+
         a {
-            
             color: white;
+            text-decoration:underline
         }
         }
     }
-
+    a:hover {
+        color: #ccc; 
+    }
 
 }
 .yogaphoto {
@@ -53,4 +58,6 @@
     width: 50vw;
     object-fit: cover;
     display: block;
+    border-radius: 10px;
+
 }

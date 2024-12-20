@@ -1,45 +1,24 @@
 import { Box } from "@primer/react";
 import ChilltownCut from "../assets/logos/ChilltownCut.svg";
 import Coverphoto from "../assets/images/Coverphoto.jpg";
-import Aboutcover from "../assets/images/Aboutcover.png";
-import '../scss/Header.scss';
+import "../scss/Header.scss";
 
 export function Header() {
   return (
-    <div className='header-container'>
-      {/* <nav className="nav-container">
-        <ul className="nav-list">
-          
-        </ul> 
-      </nav> */}
-
-      <img
-        className="logo"
-        src={ChilltownCut}
-        alt="Chilltown Cut Logo"
-      />
-
-      <img 
-        className="cover-photo"
-        src={Coverphoto}
-        alt="Cover"
-      />
+    <div className="header-container">
+      <img className="logo" src={ChilltownCut} alt="Chilltown Cut Logo" />
+      <img className="cover-photo" src={Coverphoto} alt="Cover" />
+      
       <div className="wavy-text-container">
-        <div class="wavy-text">
-          <span>C</span><span>H</span><span>I</span><span>L</span><span>L</span>
-          <span> </span>
-          <span>R</span><span>U</span><span>N</span><span>N</span><span>I</span><span>N</span><span>G</span><span>S</span>
-          <span> </span>
-          <span>C</span><span>H</span><span>I</span><span>L</span><span>L</span>
-          <span> </span>
-          <span>R</span><span>U</span><span>N</span><span>N</span><span>I</span><span>N</span><span>G</span><span>S</span>
-          <span> </span>
+        <div className="wavy-text">
+          {"CHILL RUNNING CHILL RUNNING CHILL RUNNING".split("").map((letter, index) => (
+            <span key={index} style={{ "--i": index + 1 }}>
+              {letter === " " ? "\u00A0" : letter}
+            </span>
+          ))}
         </div>
       </div>
-      
     </div>
   );
 }
-
-
 

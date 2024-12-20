@@ -1,28 +1,3 @@
-// .Slideshow-row { 
-//     display: flex; 
-//     justify-content: space-around; 
-//     align-items:normal; 
-//     padding: 20px; 
-//     background: linear-gradient(to right, ivory, gray);
-
-// }
-
-// .Slideshow-container, 
-// .Slideshow2-container, 
-// .Slideshow4-container {
-//     flex: 1; 
-//     margin: 0 10px;
-// }
-
-// .photos {
-//     width: 100%; // Make the image responsive within its container
-// }
-
-// .photo {
-//     width: 100%; // Make the image fill its container
-//     height: auto; // Maintain aspect ratio
-// }
-
 .Slideshow-row { 
     display: flex; 
     justify-content: space-between; // Tighter spacing between columns
@@ -32,7 +7,6 @@
     background: linear-gradient(to right, ivory, gray); // Background gradient
  // Small gap between columns
 }
-
 .Slideshow-container {
     flex: 1; // Equal width for all columns
     display: flex; // Stack images in a column
@@ -43,14 +17,12 @@
 
 .photos {
     width: 100%; // Ensure the container fills its column
-    max-width: 320px; // Optional: Set a maximum width for consistency
+    max-width: 490px; // Optional: Set a maximum width for consistency
     overflow: hidden; // Prevent overflow of larger images
-    border-radius: 8px; // Optional: Add rounded corners
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Add subtle shadow
-}
+    border-radius: 0px; // Optional: Add rounded corners
 
 .photo {
-    width: 100%; // Ensure the image fills the width of the container
+    width:100%; // Ensure the image fills the width of the container
     height: auto; // Keep the image height proportional
     object-fit: cover; // Scale and crop the image to maintain its aspect ratio
     display: block; // Ensure the image behaves as a block-level element
@@ -60,4 +32,5 @@
 .photo:hover {
     transform: scale(1.05); // Slight zoom on hover
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); // Enhance shadow on hover
+}
 }
