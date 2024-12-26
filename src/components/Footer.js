@@ -25,7 +25,7 @@ return (
         </div>
         <div>
             <a className="code-of-conduct" href="https://drive.google.com/file/d/1S0yarD4VzoqjqAvYp-KqdyAl892358Wb/view?pli=1" target="_blank">
-                <h4>CHILL TOWN STREET CLUB CODE OF CONDUCT</h4>
+                <h4>CHILLTOWN STREET CLUB CODE OF CONDUCT</h4>
             
             </a>   
         </div>
