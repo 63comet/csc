@@ -12,7 +12,6 @@ export function AboutMe() {
       />
       
       <div className="overlay">
-      <div className='infobox'></div>
             <div className="AboutMe-text">
             <h1>ABOUT</h1> 
                 <p>

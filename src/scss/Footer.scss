@@ -1,38 +1,44 @@
 .footer-container {
     background-color: #000000;
-    padding: 10px; 
+    padding: 10px;
     width: 100%;
     bottom: 0;
     flex: 1;
     background: rgb(25, 24, 24);
     text-align: center;
-
-    .code-of-conduct{
-        color: white;
-        position: relative;
-        z-index: 10;
-        margin-bottom: 10px;
-        text-decoration: none;
+  
+    .code-of-conduct {
+      color: white;
+      position: relative;
+      z-index: 10;
+      margin-bottom: 10px;
+      text-decoration: none;
     }
-
-    .social-media-container{
-
-        .social-media-logo{
-            height: 40px;
-            margin-top: 15px;
-        }
-        display: flex;
-        justify-content: space-between;
-        padding-left: 50px;
-        padding-right: 50px;
+  
+    .social-media-container {
+      .social-media-logo {
+        height: 40px;
+        margin-top: 15px;
+      }
+      display: flex;
+      justify-content: space-between;
+      padding-left: 50px;
+      padding-right: 50px;
     }
-
-        .donation-form-container {
-        position: relative;
-        text-decoration-color: white;
-        z-index: 10;
-        margin-bottom: 10px;
-        text-transform: white;
-
-        }
+  
+    .donation-form-container {
+      position: relative;
+      z-index: 10;
+      margin-bottom: 10px;
     }
+  
+    .footer-container a.Donation\ Link {
+      color: white; /* Ensure the link text is white */
+      text-decoration: none; /* Remove underline */
+    }
+  
+    .footer-container a.Donation\ Link:visited {
+      color: white; /* Ensure visited links stay white */
+    }
+  }
+  

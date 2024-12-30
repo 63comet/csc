@@ -1,25 +1,13 @@
 .about-me-container {
   position: relative;
-  height: 50vw;
-  margin-top: 0px;
+  // height: 50vw;
+  //margin-top: 0px;
   
 
 
-  .AboutMe-text{
-    color: #fff;
-    width: 50%;
-    text-align: center;
 
-
-    h1{
-      font-size: 4.0rem;
-      margin-bottom: 15px;
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-  }
-}
   .cover-photo{
-      position:absolute;
+      //position:absolute;
       left: 0;
       right: 0;
       top: 0;
@@ -32,23 +20,38 @@
 
   .overlay{
       position: absolute;
+      display: flex;
+      justify-content: center;
       left: 0;
       right: 0;
       top: 0;
       bottom: 0;
       background-color: rgba(46, 46, 46, 0.5); 
       z-index: 2; 
+      .AboutMe-text{
+        color: #fff;
+        //width: 50%;
+        
+        text-align: center;
+        p {
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+          font-size: 1.667vw;
+          line-height: 4vw;
+          text-align:justify;
+          width: 40vw;
+          
+        }
+    
+        h1{
+          font-size: 3.333vw;
+          margin-bottom: 15px;
+          text-align: center;
+          font-family: 'Montserrat', sans-serif;
+      }
+    }
   }
     }
   
-      p {
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        font-size: 2.0rem;
-        line-height: 3.0rem;
-        text-align:justify;
-        margin-left:0%;
-        width: 800px;
-        margin-top:300px;
-      }
+     
   
