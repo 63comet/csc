@@ -63,7 +63,7 @@ export function AutoScrollCarousel() {
           {/* Duplicate items for smooth scrolling */}
           {logos.map((logo, index) => (
             <div aria-hidden="true" className="carousel-item" key={`duplicate-${index}`}>
-              <img src={logo} alt={`Logo ${index + 1}`} />
+              <img className='logos'src={logo} alt={`Logo ${index + 1}`} />
             </div>
           ))}
         </div>

@@ -1,90 +1,10 @@
-// .Run-container {
-//    font-family: 'Montserrat', sans-serif;
-//    display: flex;
-//    justify-content: right;
-//    background: linear-gradient(to right, black, gray);
-//    position: relative;
-
-//    .Run-text {
-//       color: #fff;
-//       width: 50%;
-//       text-align: center;
-//       margin-top: 100px;
-
-//       h1 {
-//          font-size: 4.0rem;
-//          margin-bottom: 15px;
-//          text-align: center;
-//          font-family: 'Montserrat', sans-serif;
-//       }
-
-//       h4 {
-//          font-size: 1.8rem;
-//          margin-bottom: 15px;
-//          text-align: auto;
-//          font-family: 'Montserrat', sans-serif; 
-//       }
-
-//       p {
-//          font-family: 'Montserrat', sans-serif;
-//          font-size: 1.2rem;
-//          line-height: 3.0rem;
-//          margin-left: auto;
-//          margin-right: auto;
-//          width: 500px;
-//          margin-top: 80px;
-//       }
-
-//       .Location-container {
-//          font-family: 'Montserrat', sans-serif;
-//          font-weight: bold;
-//          font-size: 1.2rem;
-//          margin-top: 80px;
-//          text-align: center;
-//          color:  white(120, 116, 116);
-
-//          a {
-//             color: white;
-//             text-decoration: under; 
-//             transition: color 0.50s ease;
-//          }
-
-//          a:hover {
-//             color: #ccc; 
-//          }
-//       }
-//    }
-
-//    .Runimage {
-//       height: 700px;
-//       width: 50vw;
-//       object-fit: cover;
-//       display: block;
-//       transition: opacity 40s ease-in-out; 
-//       border-radius: 10px; 
-//    }
-//    @media (max-width: 768px) {
-//       .Runimage {
-//         display: none; /* Hides the image on smaller screens */
-//       }
-//     }
-
-//    .fade-out {
-//       opacity: 0;
-//    }
-
-//    .fade-in {
-//       opacity: 1; 
-//    }
-// }
-
 .Run-container {
    font-family: 'Montserrat', sans-serif;
    display: flex;
-   justify-content: flex-end; /* Align content to the right */
+   justify-content: right;
    background: linear-gradient(to right, black, gray);
    position: relative;
-   flex-wrap: wrap; /* Allow wrapping of content on smaller screens */
+   height: 100vh;
 
    .Run-text {
       color: #fff;
@@ -102,14 +22,14 @@
       h4 {
          font-size: 1.5vw;
          margin-bottom: 15px;
-         text-align: center; /* Fixed to center text */
+         text-align: auto;
          font-family: 'Montserrat', sans-serif; 
       }
 
       p {
          font-family: 'Montserrat', sans-serif;
-         font-size: 0.9vw;
-         line-height: 3.0rem;
+         font-size: 1.2rem;
+         line-height: 2.5vw;
          margin-left: auto;
          margin-right: auto;
          width: 500px;
@@ -119,72 +39,68 @@
       .Location-container {
          font-family: 'Montserrat', sans-serif;
          font-weight: bold;
-         font-size: 0.9vw;
+         font-size: 3.0vw;
          margin-top: 80px;
          text-align: center;
-         color: white;
+         color:  white(120, 116, 116);
 
          a {
             color: white;
-            text-decoration: underline; /* Fixed typo: 'under' to 'underline' */
+            text-decoration: under; 
             transition: color 0.50s ease;
          }
 
          a:hover {
-            color: #ccc;
+            color: #ccc; 
          }
       }
    }
 
    .Runimage {
-      height: 700px;
+      height: 100%;
       width: 50vw;
       object-fit: cover;
       display: block;
-      transition: opacity 40s ease-in-out;
-      border-radius: 10px;
+      transition: opacity 40s ease-in-out; 
+      border-radius: 10px; 
+   }
+   @media (max-width: 932px) {
+      .Runimage {
+        display: none; /* Hides the image on smaller screens */
+      }
+    }
+
+   .fade-out {
+      opacity: 0;
    }
 
+   .fade-in {
+      opacity: 1; 
+   }
+}
+
+
+
    /* Media query for smaller screens (phones and tablets) */
-   @media (max-width: 768px) {
+   @media (max-width: 932px) {
 
       .Run-container {
          // display: flex;
          // justify-content: center;
          flex-direction: column; /* Stack elements vertically */
-         align-items: center; /* Center content */
-      }
-
-      .Run-text {
-         width: 90%; /* Allow the text to take more width */
-         margin-top: 20px; /* Reduce the margin to make it fit better */
-         //line-height: 4vw;
-         //text-align:justify;
-         //width: 40vw;
-      }
-
-      .Runimage {
-         display: none; /* Hides the image on smaller screens */
-      }
-
-      h1 {
-         font-size: 2.0vw; /* Smaller font size for h1 on mobile */
-      }
-
-      h4 {
-         font-size: 1.0vw; /* Smaller font size for h4 on mobile */
-      }
-
-      p {
-         width: 90%; /* Allow the text to be more flexible */
-         font-size: 0.83vw; /* Adjust font size */
-         margin-top: 20px; /* Reduce margin */
-      }
-
-      .Location-container {
-         margin-top: 40px; /* Adjust margin for mobile */
-      }
+         align-items: center;
+         height: auto; /* Center content */
+         .Run-text {
+       
+            margin-top: 20px; 
+            p{
+               width: 100%;
+               font-size: small;
+               line-height: 5vw;
+            }
+         }
+      } 
    }
-}
+
 
 

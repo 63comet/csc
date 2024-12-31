@@ -1,13 +1,8 @@
 .about-me-container {
   position: relative;
-  // height: 50vw;
-  //margin-top: 0px;
+  height: 100vh;
   
-
-
-
   .cover-photo{
-      //position:absolute;
       left: 0;
       right: 0;
       top: 0;
@@ -16,6 +11,15 @@
       height: 100%;
       object-fit: cover;
       z-index: 1;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.667vw;
+    line-height: 2.5vw;
+    text-align: center;
+    width: 40vw;
+    
   }
 
   .overlay{
@@ -30,19 +34,11 @@
       z-index: 2; 
       .AboutMe-text{
         color: #fff;
-        //width: 50%;
-        
         text-align: center;
-        p {
-          font-family: 'Montserrat', sans-serif;
-          color: white;
-          font-size: 1.667vw;
-          line-height: 4vw;
-          text-align:justify;
-          width: 40vw;
-          
-        }
-    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
         h1{
           font-size: 3.333vw;
           margin-bottom: 15px;
@@ -51,7 +47,19 @@
       }
     }
   }
-    }
-  
+  @media (max-width: 932px) {
+      p{
+        font-size: 4vw;
+        line-height: 5vw;
+        width: 70vw;
+      }
+  }
+}
+@media (max-width: 932px) {
+  .about-me-container {
+    position: relative;
+    height: 50vh;
+  }  
+}
      
   

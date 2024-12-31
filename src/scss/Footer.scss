@@ -1,44 +1,93 @@
+// .footer-container {
+//     background-color: #000000;
+//     padding: 10px;
+//     width: 100%;
+//     bottom: 0;
+//     flex: 1;
+//     background: rgb(25, 24, 24);
+//     text-align: center;
+//     height: 11vw;
+  
+//     .code-of-conduct {
+//       color: white;
+//       position: relative;
+//       z-index: 10;
+//       margin-bottom: 10px;
+//       text-decoration: none;
+//     }
+  
+//     .social-media-container {
+//       .social-media-logo {
+//         height: 40px;
+//         margin-top: 15px;
+//       }
+//       display: flex;
+//       justify-content: space-between;
+//       padding-left: 50px;
+//       padding-right: 50px;
+//     }
+  
+//     .donation-form-container {
+//       position: relative;
+//       z-index: 10;
+//       margin-bottom: 10px;
+//     }
+  
+//     .footer-container a.Donation\ Link {
+//       color: white; /* Ensure the link text is white */
+//       text-decoration: none; /* Remove underline */
+//     }
+  
+//     .footer-container a.Donation\ Link:visited {
+//       color: white; /* Ensure visited links stay white */
+//     }
+//   }
+  
 .footer-container {
-    background-color: #000000;
-    padding: 10px;
-    width: 100%;
-    bottom: 0;
-    flex: 1;
-    background: rgb(25, 24, 24);
-    text-align: center;
-  
-    .code-of-conduct {
-      color: white;
-      position: relative;
-      z-index: 10;
-      margin-bottom: 10px;
-      text-decoration: none;
+  background-color: #000000;
+  padding: 1em; /* Changed from px to em for scalability */
+  width: 100%;
+  bottom: 0;
+  flex: 1;
+  background: rgb(25, 24, 24);
+  text-align: center;
+  height: auto; /* Removed hardcoded height */
+
+  .code-of-conduct {
+    color: white;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 1em; /* Adjusted for scalability */
+    text-decoration: none;
+  }
+
+  .social-media-container {
+    .social-media-logo {
+      height: 5vw; /* Responsive scaling based on viewport width */
+      margin-top: 1em;
     }
-  
-    .social-media-container {
-      .social-media-logo {
-        height: 40px;
-        margin-top: 15px;
-      }
-      display: flex;
-      justify-content: space-between;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-  
-    .donation-form-container {
-      position: relative;
-      z-index: 10;
-      margin-bottom: 10px;
-    }
-  
-    .footer-container a.Donation\ Link {
-      color: white; /* Ensure the link text is white */
-      text-decoration: none; /* Remove underline */
-    }
-  
-    .footer-container a.Donation\ Link:visited {
-      color: white; /* Ensure visited links stay white */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%; /* Using percentages for spacing */
+  }
+
+  .donation-form-container {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 1em; /* Adjusted for scalability */
+  }
+
+  .footer-container a.Donation\ Link {
+    color: white; /* Ensure the link text is white */
+    text-decoration: none; /* Remove underline */
+  }
+
+  .footer-container a.Donation\ Link:visited {
+    color: white; /* Ensure visited links stay white */
+  }
+  @media (max-width: 932px) {
+    h4{
+      font-size: 2vw;
     }
   }
-  
+}

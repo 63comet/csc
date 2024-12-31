@@ -24,17 +24,39 @@
         .carousel-item {
           flex: 0 0 auto; 
           padding: 10px; 
-  
           img {
-            max-height: 80px; 
-            max-width: 150px; 
-            object-fit: contain; 
+            max-height: 10vh; /* Limits height to 10% of the viewport height */
+            max-width: 50%; /* Limits width to 50% of the viewport width */
+            width: auto; /* Ensures the aspect ratio is maintained */
+            height: auto; /* Ensures the aspect ratio is maintained */
+            object-fit: contain; /* Maintains the content's aspect ratio within the bounding box */
           }
+
         }
       }
     }
+    @media (max-width: 932px) {
+      .carousel-section {
+          
+          height: 10vh;
+          overflow: hidden;
+           
+      }
+      .carousel-title {
+        font-size: 3vw; 
+      }
+      .carousel-container .carousel .carousel-item img {
+        max-height: 3vh; /* Reduce height for smaller screens */
+        max-width: 80%; /* Allow the image to occupy up to 80% of its container width */
+        width: auto; /* Maintain aspect ratio */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: contain; /* Keep the image within its bounding box */
+        margin: 0 auto; /* Center the image */
+        display: block; /* Ensures proper alignment */
+      }
+      
   }
-  
+  }
   // Keyframes for infinite scrolling
   @keyframes scroll {
     from {
@@ -44,4 +66,5 @@
       transform: translateX(calc(-100% - 20px));
     }
   }
+
   
