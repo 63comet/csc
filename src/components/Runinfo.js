@@ -1,5 +1,5 @@
 import React, { useState } from "react"; 
-import RunImage from "../assets/images/Runimage.JPG";
+import RunImage from "../assets/images/Runimage.jpg";
 import DepartedImage from "../assets/images/departed.png"; 
 import '../scss/Runinfo.scss';
 
