@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/csc/static/css/main.9c13eab3.css",
-    "main.js": "/csc/static/js/main.3b4ecdf4.js",
+    "main.css": "/csc/static/css/main.e1187fc7.css",
+    "main.js": "/csc/static/js/main.d06b8d8f.js",
     "static/js/453.bc7b527d.chunk.js": "/csc/static/js/453.bc7b527d.chunk.js",
     "static/media/yogaphoto.jpg": "/csc/static/media/yogaphoto.1e42cac04bd768fe2a11.jpg",
     "static/media/yogaphoto2.jpg": "/csc/static/media/yogaphoto2.99057a1a389b17872864.jpg",
@@ -43,12 +43,12 @@
     "static/media/LMNTWhite.png": "/csc/static/media/LMNTWhite.4e36531321f91cb6d898.png",
     "static/media/Spoonful.png": "/csc/static/media/Spoonful.b6cec1c66f5e7fad306e.png",
     "index.html": "/csc/index.html",
-    "main.9c13eab3.css.map": "/csc/static/css/main.9c13eab3.css.map",
-    "main.3b4ecdf4.js.map": "/csc/static/js/main.3b4ecdf4.js.map",
+    "main.e1187fc7.css.map": "/csc/static/css/main.e1187fc7.css.map",
+    "main.d06b8d8f.js.map": "/csc/static/js/main.d06b8d8f.js.map",
     "453.bc7b527d.chunk.js.map": "/csc/static/js/453.bc7b527d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c13eab3.css",
-    "static/js/main.3b4ecdf4.js"
+    "static/css/main.e1187fc7.css",
+    "static/js/main.d06b8d8f.js"
   ]
 }
