@@ -42,7 +42,7 @@
          font-size: 3.0vw;
          margin-top: 80px;
          text-align: center;
-         color:  white(120, 116, 116);
+         color: black;
 
          a {
             color: white;
@@ -51,7 +51,7 @@
          }
 
          a:hover {
-            color: #ccc; 
+            color: black; 
          }
       }
    }
@@ -68,7 +68,7 @@
       .Runimage {
         display: none; /* Hides the image on smaller screens */
       }
-    }
+   }
 
    .fade-out {
       opacity: 0;
