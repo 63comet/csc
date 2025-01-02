@@ -1,8 +1,7 @@
 .Slideshow-row { 
     display: flex; 
     justify-content: space-between; // Tighter spacing between columns
-    align-items: flex-start; // Align columns at the top
-    padding-top: 20px; 
+    align-items: flex-start; // Align columns at the top 
     padding-bottom: 20px;
     background: linear-gradient(to right, ivory, gray); 
     gap: 25px;

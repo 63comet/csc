@@ -3,11 +3,11 @@
     display: flex;
     height: 100vh;
     justify-content: space-between; 
-    background: linear-gradient(to left, ivory, gray);
+    background: linear-gradient(to right, ivory, gray);
     position: relative; 
 
     .Spin-text {
-        color: white;
+        color: black;
         width: 50%;
         text-align: center;
         
@@ -39,14 +39,14 @@
 
         .Location-container {
             font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
+            font-weight: normal;
             font-size: 3.0vw;
             margin-top: 80px;
             text-align: center;
-            color: white;
+            color: black;
 
             a {
-                color: white;
+                color: black;
                 text-decoration: underline; 
                 transition: color 0.50s ease;
             }
