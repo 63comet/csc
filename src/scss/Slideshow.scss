@@ -6,7 +6,13 @@
     padding-bottom: 20px;
     background: linear-gradient(to right, ivory, gray); 
     gap: 25px;
+
+    @media (max-width: 932px) {
+        gap: 5px; // Adjust gap for smaller screens
+        max-width: 100%; // Ensure it doesn't exceed the screen width
+    }
 }
+
 .Slideshow-container {
     flex: 1; // Equal width for all columns
     display: flex; // Stack images in a column
@@ -32,4 +38,5 @@
 .photo:hover {
     transform: scale(1.05); // Slight zoom on hover
 }
+
 }
