@@ -48,8 +48,8 @@ export function Slideshow() {
                 <div className="photos">
                     <img className="photo" src={slideshow5} alt="Slideshow 5" />
                 </div>
-                <div className="photos">
-                    <img className="photo" src={yogaphoto} alt="yogaphoto" />
+                <div className="photos" >
+                    <img className="photo" style={{height: '49.4vw'}} src={yogaphoto} alt="yogaphoto" />
                 </div>
             </div>
         </div>

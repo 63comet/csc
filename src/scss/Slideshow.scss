@@ -4,33 +4,32 @@
     align-items: flex-start; // Align columns at the top
     padding-top: 20px; 
     padding-bottom: 20px;
-    background: linear-gradient(to right, ivory, gray); // Background gradient
- // Small gap between columns
+    background: linear-gradient(to right, ivory, gray); 
+    gap: 25px;
 }
 .Slideshow-container {
     flex: 1; // Equal width for all columns
     display: flex; // Stack images in a column
     flex-direction: column; 
     align-items: center; // Center-align the images
-    gap: 10px; // Small gap between photos
+    gap: 25px; // Small gap between photos
 }
 
 .photos {
     width: 100%; // Ensure the container fills its column
-    max-width: 490px; // Optional: Set a maximum width for consistency
+    //max-width: 490px; // Optional: Set a maximum width for consistency
     overflow: hidden; // Prevent overflow of larger images
     border-radius: 0px; // Optional: Add rounded corners
 
 .photo {
     width:100%; // Ensure the image fills the width of the container
     height: auto; // Keep the image height proportional
-    object-fit: cover; // Scale and crop the image to maintain its aspect ratio
+    //object-fit: cover; // Scale and crop the image to maintain its aspect ratio
     display: block; // Ensure the image behaves as a block-level element
 }
 
 
 .photo:hover {
     transform: scale(1.05); // Slight zoom on hover
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); // Enhance shadow on hover
 }
 }
