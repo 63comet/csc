@@ -8,7 +8,6 @@ export function Runinfo() {
     const [imageOpacity, setImageOpacity] = useState(1);
     return (
         <div className='Run-container'>
-            <div className='infobox'></div>
             <div className="Run-text">
                 <h1>RUN</h1>
                 <p>
@@ -18,28 +17,13 @@ export function Runinfo() {
                 </p>
                 <div className='Location-container'>
                     <div className='location-wrapper'>
-                        <a 
-                            href="https://www.google.com/maps?ll=40.72087,-74.040134&z=15&t=m&hl=en-US&gl=US&mapclient=embed&cid=9782111646039970650" 
-                            target="_blank" 
-                            rel="noopener"
-                            onMouseEnter={() => {
-                                setImageOpacity(0); // Fade out the current image
-                                setTimeout(() => {
-                                    setImageSrc(DepartedImage); 
-                                    setImageOpacity(1); // Immediately prepare for fade-in
-                                }, 500); // Change the image source after 1 second
-                            }}
-                            onMouseLeave={() => {
-                                setImageOpacity(0); // Fade out the current image
-                                setTimeout(() => {
-                                    setImageSrc(RunImage);
-                                    setImageOpacity(1); // Fade in the original image
-                                }, 500); // Change back to the original image after 1 second
-                            }}
-                            
-                        >
-                            LOCATION
-                        </a>
+                    <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6047.7407473771!2d-74.040134!3d40.72087!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250ada149a34f%3A0x87c10ab6d76c935a!2sDeparted%20Soles%20Brewing%20Company!5e0!3m2!1sen!2sus!4v1736286412155!5m2!1sen!2sus"
+                style={{ border: 0, width: '60vw', height: '15vh' }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+            />
                     </div>
                 </div>
             </div>

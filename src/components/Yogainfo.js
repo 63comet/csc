@@ -25,8 +25,13 @@ export function Yogainfo() {
             ride. All levels welcome. 
             </p>
             <div className='Location-container'>
-            <a href="https://www.google.com/maps/place/341+Monmouth+St,+Jersey+City,+NJ+07302/@40.721358,-74.050008,1289m/data=!3m1!1e3!4m6!3m5!1s0x89c250b4482bb7a5:0x3e630e789958ae0d!8m2!3d40.7213576!4d-74.0500781!16s%2Fg%2F11c5kzn93j?hl=en-US&entry=ttu" target="_blank" rel="noopener">
-            LOCATION</a>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6047.696409036165!2d-74.050008!3d40.721358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b4482bb7a5%3A0x3e630e789958ae0d!2s341%20Monmouth%20St%2C%20Jersey%20City%2C%20NJ%2007302!5e0!3m2!1sen!2sus!4v1736286695815!5m2!1sen!2sus"
+                style={{ border: 0, width: '60vw', height: '15vh' }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                />
             </div>
             </div>
             </div>

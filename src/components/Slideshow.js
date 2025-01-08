@@ -9,11 +9,31 @@ import slideshow3 from "../assets/images/slideshow3.png";
 import yogaphoto from "../assets/images/yogaphoto.jpg";
 import yogaphoto2 from "../assets/images/yogaphoto2.jpg";
 import '../scss/Slideshow.scss';
+import React, { useEffect } from "react";
 
 export function Slideshow() {
-    return (
-        <div className="Slideshow-row"> 
-            {/* First Column */}
+  useEffect(() => {
+    // Dynamically add the script to the document
+    const script = document.createElement("script");
+    script.type = "module";
+    script.src = "https://w.behold.so/widget.js";
+    document.head.appendChild(script);
+
+    // Cleanup: remove the script when the component unmounts
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  return (
+    <div className="Slideshow-row">
+      <behold-widget feed-id="yPrI3ycyw7eSM2jQrwXm"></behold-widget>
+    </div>
+    
+    );
+  }
+  
+{/*     
             <div className="Slideshow-container">
                 <div className="photos">
                     <img className="photo" src={slideshow1} alt="Slideshow 1" />
@@ -26,7 +46,7 @@ export function Slideshow() {
                 </div>
             </div>
 
-            {/* Second Column */}
+            
             <div className="Slideshow-container">
                 <div className="photos">
                     <img className="photo" src={yogaphoto2} alt="yogaphoto2" />
@@ -40,7 +60,7 @@ export function Slideshow() {
                 </div>
             </div>
 
-            {/* Third Column */}
+            
             <div className="Slideshow-container">
                 <div className="photos">
                     <img className="photo" src={slideshow4} alt="Slideshow 4" />
@@ -51,7 +71,5 @@ export function Slideshow() {
                 <div className="photos" >
                     <img className="photo" style={{height: '49.4vw'}} src={yogaphoto} alt="yogaphoto" />
                 </div>
-            </div>
-        </div>
-    );
-}
+            </div> */}
+

@@ -78,12 +78,12 @@
   }
 
   .footer-container a.Donation\ Link {
-    color: white; /* Ensure the link text is white */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    text-decoration: none; 
   }
 
   .footer-container a.Donation\ Link:visited {
-    color: white; /* Ensure visited links stay white */
+    color: white; 
   }
   @media (max-width: 932px) {
     h4{

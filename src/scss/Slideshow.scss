@@ -1,41 +1,11 @@
 .Slideshow-row { 
-    display: flex; 
-    justify-content: space-between; // Tighter spacing between columns
-    align-items: flex-start; // Align columns at the top 
     padding-bottom: 20px;
-    background: linear-gradient(to right, ivory, gray); 
-    gap: 25px;
+    padding-top: 20px;
+    background: linear-gradient(to right, ivory, gray);
 
+    /* Media query for smaller screens */
     @media (max-width: 932px) {
-        gap: 5px; // Adjust gap for smaller screens
-        max-width: 100%; // Ensure it doesn't exceed the screen width
+        width: 100%; /* Ensure it doesn't exceed the screen width */
+        height: auto; /* Allow the height to be auto on smaller screens */
     }
-}
-
-.Slideshow-container {
-    flex: 1; // Equal width for all columns
-    display: flex; // Stack images in a column
-    flex-direction: column; 
-    align-items: center; // Center-align the images
-    gap: 25px; // Small gap between photos
-}
-
-.photos {
-    width: 100%; // Ensure the container fills its column
-    //max-width: 490px; // Optional: Set a maximum width for consistency
-    overflow: hidden; // Prevent overflow of larger images
-    border-radius: 0px; // Optional: Add rounded corners
-
-.photo {
-    width:100%; // Ensure the image fills the width of the container
-    height: auto; // Keep the image height proportional
-    //object-fit: cover; // Scale and crop the image to maintain its aspect ratio
-    display: block; // Ensure the image behaves as a block-level element
-}
-
-
-.photo:hover {
-    transform: scale(1.05); // Slight zoom on hover
-}
-
 }

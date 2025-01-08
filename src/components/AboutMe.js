@@ -15,7 +15,7 @@ export function AboutMe() {
             <div className="AboutMe-text">
             <h1>ABOUT</h1> 
                 <p>
-                Founded in 2022, We blend running, biking, meditation, and yoga in Jersey City to empower movement,
+                Founded in 2023, We blend running, biking, meditation, and yoga in Jersey City to empower movement,
                 foster community, and support local businesses. 
                 Join us to experience a vibrant and holistic approach 
                 to wellness.

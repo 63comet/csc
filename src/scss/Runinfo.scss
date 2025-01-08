@@ -8,6 +8,8 @@
 
    .Run-text {
       color: black;
+      display:flex; 
+      flex-direction: column;
       width: 50%;
       text-align: center;
       margin-top: 100px;
