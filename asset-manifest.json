@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/csc/static/css/main.a8e530c4.css",
-    "main.js": "/csc/static/js/main.ea89402c.js",
+    "main.css": "/csc/static/css/main.5a9fe29a.css",
+    "main.js": "/csc/static/js/main.635abb32.js",
     "static/js/453.bc7b527d.chunk.js": "/csc/static/js/453.bc7b527d.chunk.js",
     "static/media/yogaphoto2.jpg": "/csc/static/media/yogaphoto2.99057a1a389b17872864.jpg",
     "static/media/yogaphoto.jpg": "/csc/static/media/yogaphoto.4b065dbd82b26b31c82c.jpg",
@@ -25,8 +25,8 @@
     "static/media/departed.png": "/csc/static/media/departed.d7851322f560d3653285.png",
     "static/media/SaludWhite.png": "/csc/static/media/SaludWhite.b4231e494018b4c26eed.png",
     "static/media/Newbalance.png": "/csc/static/media/Newbalance.e60df2c23b5b483358e5.png",
-    "static/media/ChilltownCut.svg": "/csc/static/media/ChilltownCut.55530b2de2bede059b2de7a8a913bfbc.svg",
     "static/media/Lululemon.png": "/csc/static/media/Lululemon.678f430dd8372ca1b101.png",
+    "static/media/Chilltowncut.png": "/csc/static/media/Chilltowncut.27bda517a65f65fb4317.png",
     "static/media/GoMacro.png": "/csc/static/media/GoMacro.65ae1103b5b0a5f0a4f3.png",
     "static/media/MaskGroup.png": "/csc/static/media/MaskGroup.9cdedce6d8352b54ca37.png",
     "static/media/CampSnap.png": "/csc/static/media/CampSnap.a8eaadc290a02c3eeafe.png",
@@ -43,12 +43,12 @@
     "static/media/LMNTWhite.png": "/csc/static/media/LMNTWhite.4e36531321f91cb6d898.png",
     "static/media/Spoonful.png": "/csc/static/media/Spoonful.b6cec1c66f5e7fad306e.png",
     "index.html": "/csc/index.html",
-    "main.a8e530c4.css.map": "/csc/static/css/main.a8e530c4.css.map",
-    "main.ea89402c.js.map": "/csc/static/js/main.ea89402c.js.map",
+    "main.5a9fe29a.css.map": "/csc/static/css/main.5a9fe29a.css.map",
+    "main.635abb32.js.map": "/csc/static/js/main.635abb32.js.map",
     "453.bc7b527d.chunk.js.map": "/csc/static/js/453.bc7b527d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8e530c4.css",
-    "static/js/main.ea89402c.js"
+    "static/css/main.5a9fe29a.css",
+    "static/js/main.635abb32.js"
   ]
 }
