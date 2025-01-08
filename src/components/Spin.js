@@ -7,10 +7,10 @@ export function Spin() {
             <div className="Spin-text">
                 <h1>SPIN</h1>
                 <p>
-                Wednesdays and Thursdays, meet at Newport Swim and Fitness in Jersey City
+                Meet at Newport Swim and Fitness in Jersey City
                 for an invigorating spin class. With options 
                 for beginners and advanced riders alike, come connect, challenge yourself,
-                and enjoy the ride.All fitness levels are welcome.Rsvp on whatsapp required.
+                and enjoy the ride. All fitness levels are welcome.Rsvp on whatsapp required.
                 </p>
                 <div className='Location-container'>
                     <div className='location-wrapper'>
