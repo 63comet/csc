@@ -44,14 +44,15 @@
 //   }
   
 .footer-container {
-  background-color: #000000;
-  padding: 1em; /* Changed from px to em for scalability */
+  background-color: rgb(25, 24, 24);
+  padding: 0.5em; /* Reduce padding if needed */
   width: 100%;
-  bottom: 0;
-  flex: 1;
-  background: rgb(25, 24, 24);
   text-align: center;
-  height: auto; /* Removed hardcoded height */
+  position: relative; /* Optional: adjust based on layout */
+  height: auto; /* Ensures height adjusts to content */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
 
   .code-of-conduct {
     color: white;
@@ -90,4 +91,3 @@
       font-size: 2vw;
     }
   }
-}

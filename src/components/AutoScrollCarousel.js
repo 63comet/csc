@@ -7,19 +7,19 @@ import RapidRebootBlack from "../assets/logos/Partners/RapidRebootBlack.png";
 import SaltStickCircle from "../assets/logos/Partners/SaltStickCircle.png";
 import Lululemon from "../assets/logos/Partners/Lululemon.png";
 import NewBalance from "../assets/logos/Partners/Newbalance.png";
-import LiquidIVWhite from "../assets/logos/Partners/LiquidIVWhite.png";
 import LMNTWhite from "../assets/logos/Partners/LMNTWhite.png";
 import StravaWhite from "../assets/logos/Partners/StravaWhite.png";
 import Thefeed from "../assets/logos/Partners/Thefeed.png";
 import Baystreet from "../assets/logos/Partners/Baystreet.png";
-import Winningsevents "../assets/logos/Partners/Winningsevents.png";
-
+import Winningsevents from "../assets/logos/Partners/Winningevents.png";
+import LiquidIV from "../assets/logos/Partners/LiquidIV.png";
 export function AutoScrollCarousel() {
   // Define the logos array
   const logos = [
     CampSnap,
     ONRunning,
     MaskGroup,
+    LiquidIV,
     Baystreet,
     RapidRebootBlack,
     Winningsevents,
@@ -27,7 +27,6 @@ export function AutoScrollCarousel() {
     Lululemon,
     NewBalance,
     StravaWhite,
-    LiquidIVWhite,
     Thefeed,
     LMNTWhite,
   ];
