@@ -17,7 +17,7 @@ export function AboutMe() {
                 <p>
                 Established in 2023, we bring together running, biking, meditation, 
                 and yoga in Jersey City to inspire movement, build community, and support 
-                local businesses. Join us for an exciting journey of connection and activity.
+                local businesses. Join us for an exciting journey of connection and fitness.
                 </p>
       </div>
     </div>
