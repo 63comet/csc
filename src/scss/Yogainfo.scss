@@ -69,18 +69,23 @@
     }
     .Yoga-container {
         height: auto;
-        // display: flex;
-        // justify-content: center;
         flex-direction: column; /* Stack elements vertically */
         align-items: center; /* Center content */
         .Yoga-text {
-      
+        
            margin-top: 20px; 
            p{
               width: auto;
               font-size: small;
               line-height: 5vw;
            }
+        }
+        .Location-container{
+            width:125vw;
+            margin-left: -50vw;
+            right:0;
+            left:0;
+            position:relative;
         }
      }
   }

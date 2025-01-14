@@ -19,7 +19,7 @@ export function Runinfo() {
                     <div className='location-wrapper'>
                     <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6047.7407473771!2d-74.040134!3d40.72087!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250ada149a34f%3A0x87c10ab6d76c935a!2sDeparted%20Soles%20Brewing%20Company!5e0!3m2!1sen!2sus!4v1736286412155!5m2!1sen!2sus"
-                style={{ border: 0, width: '60vw', height: '15vh' }}
+                style={{ border: 0, width: '100%', height: '15vh' }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

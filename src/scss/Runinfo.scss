@@ -82,15 +82,12 @@
 
    /* Media query for smaller screens (phones and tablets) */
    @media (max-width: 932px) {
-
       .Run-container {
-         // display: flex;
-         // justify-content: center;
          flex-direction: column; /* Stack elements vertically */
          align-items: center;
          height: auto; /* Center content */
          .Run-text {
-       
+      
             margin-top: 20px; 
             p{
                width: 100%;
@@ -98,8 +95,15 @@
                line-height: 5vw;
             }
          }
+         .Location-container{
+            width:125vw;
+            margin-left: -50vw;
+            right:0;
+            left:0;
+            position:relative;
       } 
    }
+}
 
 
 
