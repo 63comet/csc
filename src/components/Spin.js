@@ -8,10 +8,21 @@ export function Spin() {
                 <h1>SPIN</h1>
                 <p>
                 Meet at Newport Swim and Fitness in Jersey City
-                for an invigorating spin class. With options 
-                for beginners and advanced riders alike, come connect, challenge yourself,
-                and enjoy the ride. All fitness levels are welcome.Rsvp on whatsapp required.
+                for an invigorating spin class.All fitness levels are welcome!
+                < a href="mailto:chilltownstreetclub@gmail.com" target="_blank" rel="noopener noreferrer">RSVP</a>on whatsapp required.
                 </p>
+                <div className="Text-Location">
+                <div className="Location-info">
+                <p>
+  <span className="bold-text">Event:</span> Spin class
+  <br />
+  <span className="bold-text">Time:</span> Time varies
+  <br />
+  <span className="bold-text">Location Below:</span> Newport Swim and fitness in Jersey City, NJ
+</p>
+   
+                </div>
+                </div>
                 <div className='Location-container'>
                     <div className='location-wrapper'>
                     <iframe
