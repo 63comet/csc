@@ -11,10 +11,21 @@ export function Runinfo() {
             <div className="Run-text">
                 <h1>RUN</h1>
                 <p>
-                    Every Monday at 6:45 PM, meet at Departed Soles in Jersey City 
-                    for a group run. All fitness levels are welcome, with walking 
-                    pace options and biking available. Come connect and enjoy the fun.
+                    All fitness levels are welcome, with walking 
+                    pace options and biking. Come enjoy the fun every week!
                 </p>
+            <div className="Text-Location">
+                <div className="Location-info">
+                <p>
+  <span className="bold-text">Event:</span> Group Run
+  <br />
+  <span className="bold-text">Time:</span> Every Monday at 6:45PM
+  <br />
+  <span className="bold-text">Location Below:</span> Departed Soles Brewery in Jersey City, NJ
+</p>
+   
+                </div>
+                </div>
                 <div className='Location-container'>
                     <div className='location-wrapper'>
                     <iframe
