@@ -61,11 +61,15 @@
 @media (max-width: 932px) {
     .SpinImage {
         flex-direction: column;
-        padding: 15px;
+        padding: 10px;
     }
 
     .Spin-text {
+        order:2;
+        align-items:center;
+        text-align:center;
         padding: 10px;
+        width:90%
     }
 
     .SpinImage {
