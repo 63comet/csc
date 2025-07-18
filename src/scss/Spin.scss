@@ -10,6 +10,7 @@
     background: linear-gradient(to right, ivory, gray);
 
     .Spin-text {
+        order: 1;
         color: black;
         display: flex;
         flex-direction: column;
@@ -19,15 +20,15 @@
         max-width: 500px;
         padding: 10px;
     
-
         h1, h4, p {
             padding: 30px;
             line-height: 1.5;
-            text-align: left; /* Ensures alignment matches parent */
+            text-align: left;
         }
     }
 
     .SpinImage {
+        order: 1;
         width: 100%;
         max-width: 500px;
         height: auto;
@@ -39,45 +40,46 @@
     }
 }
 
-    .Location-container {
-        font-size: clamp(1rem, 2.5vw, 1.5rem);
-        width: 100%;
-        max-width: 500px;
-        margin: 20px auto;
-        padding: 10px;
-        text-align: left;
-        border-radius:0px;
+.Location-container {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: left;
+    border-radius:0px;
 
-        a {
-            color: black;
-            text-decoration: underline;
-            transition: color 0.5s ease;
-    
-            &:hover {
-            color: black;
-            }
+    a {
+        color: black;
+        text-decoration: underline;
+        transition: color 0.5s ease;
+
+        &:hover {
+            color: gray;
         }
+    }
+}
 
 @media (max-width: 932px) {
-    .SpinImage {
+    .Spin-container {
         flex-direction: column;
         padding: 10px;
     }
 
     .Spin-text {
-        order:2;
-        align-items:center;
-        text-align:center;
+        order: 2;
+        align-items: center;
+        text-align: center;
         padding: 10px;
-        width:90%
+        width: 90%;
     }
 
     .SpinImage {
+        order: 1;
         width: 90%;
     }
 
     .Location-container {
         width: 90%;
     }
-}
 }
