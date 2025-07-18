@@ -1,109 +1,85 @@
 .Run-container {
    font-family: 'Montserrat', sans-serif;
    display: flex;
-   justify-content: right;
-   background:linear-gradient(to right, ivory, gray);
-   position: relative;
-   height: 100vh;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   padding: 10px;
+   height: auto;
+   background: linear-gradient(to right, ivory, gray);
 
    .Run-text {
+      order: 1;
       color: black;
-      display:flex; 
+      display: flex;
       flex-direction: column;
-      width: 50%;
-      text-align: center;
-      margin-top: 100px;
+      align-items: left; /* Aligns text to the left */
+      text-align: center; /* Ensures proper text alignment */
+      width: 100%; /* Full width for better spacing */
+      max-width: 500px;
+      padding: 10px;
 
-      h1 {
-         font-size: 3.333vw;
-         margin-bottom: 15px;
-         text-align: center;
-         font-family: 'Montserrat', sans-serif;
-      }
-
-      h4 {
-         font-size: 1.5vw;
-         margin-bottom: 15px;
-         text-align: auto;
-         font-family: 'Montserrat', sans-serif; 
-      }
-
-      p {
-         font-family: 'Montserrat', sans-serif;
-         font-size: 1.2rem;
-         line-height: 3.5vw;
-         text-align:center;
-         margin-left: auto;
-         margin-right: auto;
-         width: 500px;
-         margin-top: 80px;
-      }
-
-      .Location-container {
-         font-size: 3.0vw;
-         margin-top: 80px;
-
-         a {
-            color: black;
-            text-decoration:underline; 
-            transition: color 0.50s ease;
-         }
-
-         a:hover {
-            color: black; 
-         }
+      h1, h4, p {
+         padding: 30px;
+         line-height: 1.5;
+         text-align: left; /* Ensures all text aligns properly */
       }
    }
 
    .Runimage {
-      height: 100%;
-      width: 50vw;
+      width: 100%; /* Full width of the container */
+      max-width: 500px;
+      height: auto;
       object-fit: cover;
       display: block;
-      transition: opacity 40s ease-in-out; 
-      border-radius: 10px; 
+      margin-left: auto; /* Centers the image horizontally */
+      margin-right: auto;
+      border-radius: 0px;
+      order: 1; /* Image appears before the text */
    }
-   @media (max-width: 932px) {
-      .Runimage {
-        display: none; /* Hides the image on smaller screens */
+}
+
+.Location-container {
+   font-size: clamp(1rem, 2.5vw, 1.5rem);
+   width: 100%;
+   max-width: 500px;
+   margin: 20px auto;
+   padding: 10px;
+   text-align: left;
+   border-radius: 0px;
+
+   a {
+      color: black;
+      text-decoration: underline;
+      transition: color 0.5s ease;
+
+      &:hover {
+         color: gray;
       }
    }
-
-   .fade-out {
-      opacity: 0;
-   }
-
-   .fade-in {
-      opacity: 1; 
-   }
 }
 
+@media (max-width: 932px) {
+   .Run-container {
+      flex-direction: column;
+      padding: 10px;
+   }
 
+   .Run-text {
+      order: 2; /* Ensures text stays in correct order */
+      align-items: center; /* Centers text on smaller screens */
+      text-align: center;
+      padding: 10px;
+      width: 90%; /* Adjust width for responsiveness */
+   }
 
-   /* Media query for smaller screens (phones and tablets) */
-   @media (max-width: 932px) {
-      .Run-container {
-         flex-direction: column; /* Stack elements vertically */
-         align-items: center;
-         height: auto; /* Center content */
-         .Run-text {
-      
-            margin-top: 20px; 
-            p{
-               width: 100%;
-               font-size: small;
-               line-height: 5vw;
-            }
-         }
-         .Location-container{
-            width:125vw;
-            margin-left: -50vw;
-            right:0;
-            left:0;
-            position:relative;
-      } 
+   .Runimage {
+      order: 1; /* Image remains first in mobile view */
+      width: 90%; /* Adjust width for smaller screens */
+   }
+
+   .Location-container {
+      width: 90%;
    }
 }
-
-
-

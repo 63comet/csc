@@ -1,91 +1,86 @@
 .Yoga-container {
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content: left;
-    background: rgb(25, 24, 24);
-    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Corrected from 'auto' to ensure proper alignment */
+    gap: 20px;
+    padding: 10px;
+    height: auto;
+    background: #333;
 
-    .Yoga-text{
-        color: white;
-        width: 50%;
+    .Yoga-text {
+        order: 1; 
+        color: white; 
+        display: flex;
+        flex-direction: column;
+        align-items: left; 
         text-align: center;
-        margin-top: 85px;
-    
-        h1 {
-        font-size: 3.33vw;
-        margin-bottom: 15px;
-        text-align: center;
-        font-family:'Montserrat', sans-serif;
-        }
-    
-        h4 {
-        font-size: 1.5vw;
-        margin-bottom: 15px;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        }
-        
-        p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.2rem;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 500px;
-        line-height: 3.5vw;
-        margin-top: 80px;
-        }
-    
-    .Location-container { 
-        font-family:'Montserrat', sans-serif;
-        font-weight:bold;
-        font-size: 3.0vw;
-        margin-top: 80px;
-        text-align: center;
-        color: white;
+        width: 100%;
+        max-width: 500px;
+        padding: 10px;
 
-        a {
-            color: white;
-            text-decoration:underline
-        }
+        h1, h4, p {
+            padding: 30px;
+            line-height: 1.5;
+            text-align: left; /* Ensures alignment matches parent */
         }
     }
-    a:hover {
-        color: black; 
-    }
 
-}
-.yogaphoto {
-    height: 100%;
-    width: 50vw;
-    object-fit: cover;
-    display: block;
-    border-radius: 10px;
-
-}
-@media (max-width: 932px) {
     .yogaphoto {
-      display: none; /* Hides the image on smaller screens */
-    }
-    .Yoga-container {
+        width: 100%; 
+        max-width: 500px;
         height: auto;
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center content */
-        .Yoga-text {
-        
-           margin-top: 20px; 
-           p{
-              width: auto;
-              font-size: small;
-              line-height: 5vw;
-           }
+        object-fit: cover;
+        display: block;
+        margin-left: auto; /* Replaced absolute margin with responsive alignment */
+        margin-right: auto;
+        border-radius: 0px;
+        order: 1; /* Ensures the image appears before the text */
+    }
+}
+
+.Location-container {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0px;
+
+    a {
+        color: black;
+        text-decoration: underline;
+        transition: color 0.5s ease;
+
+        &:hover {
+            color: gray; /* Adjusted hover color for better effect */
         }
-        .Location-container{
-            width:125vw;
-            margin-left: -50vw;
-            right:0;
-            left:0;
-            position:relative;
-        }
-     }
-  }
+    }
+}
+
+@media (max-width: 932px) {
+    .Yoga-container {
+        flex-direction: column; /* Ensures stacking on smaller screens */
+        padding: 10px;
+    }
+
+    .Yoga-text {
+        order:2;
+        align-items:center;
+        text-align:center;
+        padding: 10px;
+        width:90%
+    }
+
+    .yogaphoto {
+        width: 90%; /* Ensures the image scales appropriately */
+    }
+
+    .Location-container {
+        width: 90%;
+    }
+}
+
+
